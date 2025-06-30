@@ -163,7 +163,44 @@ Please change the parent <Route path="${c}"> to <Route path="${c==="/"?"*":`${c}
                     “Tal vez no era perfume lo que tenía que ofrecer, sino memoria.
                     Y aún así, nadie va a detenerse a recordarme.”
                   </span>
-                </p>`,subtitle:"El terror a ser rechazada por mi aroma, cuando ya no quedaba nada que disimular."}];function Np(){return new Promise(Z=>{Z(Yd)})}function Fp(Z){return new Promise((ye,ue)=>{const t=Yd.find(U=>U.id===Z);t?ye(t):ue(new Error("Texto no encontrado"))})}const Up="_postCardContainer_173w9_1",Md={postCardContainer:Up},Bp=({date:Z,title:ye,img:ue,altImg:t,subtitle:U,id:T})=>St.jsxs("div",{className:Md.postCardContainer,children:[St.jsx("p",{children:Z}),St.jsx("img",{src:ue,alt:t}),St.jsx("h2",{children:ye}),St.jsx("p",{children:U}),St.jsx(Ei,{to:`/naranjafea/texto/${T}`,className:Md.navLink,children:St.jsx("button",{children:"ver mas"})})]}),Gp="_container_10gpl_1",zp={container:Gp},Hp=({posts:Z})=>St.jsx("div",{className:zp.container,children:Z.map(ye=>St.jsx(Bp,{...ye},ye.id))}),Vp=()=>{const[Z,ye]=Xe.useState([]),[ue,t]=Xe.useState(!0);return Xe.useEffect(()=>{Np().then(U=>{ye(U),t(!1),console.log("Posts obtenidos:",Z)})},[]),St.jsx("div",{className:"postCardListContainer",children:ue?St.jsx("p",{children:"Cargando..."}):St.jsxs("div",{children:[St.jsx("h2",{className:"dm-serif-text-regular",children:"MIS TEXTOS"}),St.jsx(Hp,{posts:Z})]})})},Wp="_container_17uu7_1",qp="_imgPostDetail_17uu7_19",lu={container:Wp,imgPostDetail:qp},Xp=({title:Z,subtitle:ye,date:ue,img:t,atlImg:U,content:T})=>St.jsxs("div",{className:lu.container,children:[St.jsx("h1",{children:Z}),St.jsx("p",{children:ue}),St.jsx("img",{src:t,alt:t,className:lu.imgPostDetail}),St.jsx("h2",{children:ye}),St.jsx("div",{dangerouslySetInnerHTML:{__html:T},className:lu.container})]}),Yp=()=>{const[Z,ye]=Xe.useState(null),{idtexto:ue}=Gh();return Xe.useEffect(()=>{Fp(ue).then(t=>{ye(t)})},[ue]),St.jsx("div",{children:St.jsx(Xp,{...Z})})},Qp={Date:!0,RegExp:!0,String:!0,Number:!0};function Qd(Z,ye,ue={cyclesFix:!0},t=[]){var U,T;let y=[];const v=Array.isArray(Z);for(const f in Z){const b=Z[f],m=v?+f:f;if(!(f in ye)){y.push({type:"REMOVE",path:[m],oldValue:Z[f]});continue}const o=ye[f],i=typeof b=="object"&&typeof o=="object"&&Array.isArray(b)===Array.isArray(o);if(b&&o&&i&&!Qp[(T=(U=Object.getPrototypeOf(b))==null?void 0:U.constructor)==null?void 0:T.name]&&(!ue.cyclesFix||!t.includes(b))){const a=Qd(b,o,ue,ue.cyclesFix?t.concat([b]):[]);y.push.apply(y,a.map(l=>(l.path.unshift(m),l)))}else b!==o&&!(Number.isNaN(b)&&Number.isNaN(o))&&!(i&&(isNaN(b)?b+""==o+"":+b==+o))&&y.push({path:[m],type:"CHANGE",value:o,oldValue:b})}const u=Array.isArray(ye);for(const f in ye)f in Z||y.push({type:"CREATE",path:[u?+f:f],value:ye[f]});return y}function $p(Z,ye){return Qd(Z,ye).length===0}var bi=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};function Jp(Z){return Z&&Z.__esModule&&Object.prototype.hasOwnProperty.call(Z,"default")?Z.default:Z}var $d={exports:{}},ua={};/**
+                </p>`,subtitle:"El terror a ser rechazada por mi aroma, cuando ya no quedaba nada que disimular."},{date:"16-05-2025",id:"3",title:"Me soñé mermelada y no fui",img:"/naranjafea/mermelada-de-naranja-con-hoja-de-menta.png",altImg:"Una cucharada de mermelada de naranja brillante, sobre una tostada, con una hoja de menta arriba.",content:` <p>
+                 Cuando era joven y redonda, y aún creía en los finales felices, me gustaba imaginar que alguien me iba a convertir en mermelada.
+                </p>
+                <p>
+                  Sí, ya sé que no es lo más glamoroso. No es un cóctel en una pileta de hotel. No es una rodaja en un vaso con hielo. Pero a mí la idea me daba ternura. Pensaba en una abuela revolviendo la olla, agregando azúcar, canela. Pensaba en una cocina calentita en invierno. En un frasco con mi nombre escrito a mano.
+                </p>
+                <p>
+                  Me parecía un buen destino. No rápido. No instantáneo. Sino uno de esos que llevan tiempo. Que maduran como se debe.
+                  Pero eso no pasó.
+                </p>
+                <div class=listaContainer>
+                  <h4>Cosas que me mantuvieron cuerda</h4>
+                  <div class=lista>
+                    <ul class=listaUl>
+                      <li class=listaLi>Pensar que todavía servía para algo</li>
+                      <li class=listaLi>Imaginarme conservada en un frasco</li>
+                      <li class=listaLi>Creer que mi dulzura podía durar años</li>
+                      <li class=listaLi>Soñar con despertar recuerdos en alguien</li>
+                    </ul>
+                    <img
+                      src='/naranjafea/naranja-estresada-manteniendo-la-calma.png'
+                      alt="naranja perfecta"
+                      class=imgLista
+                    />
+                  </div>
+                </div>
+                <p>
+                  Ahora estoy acá, hinchada y con olor, y ya no hay cocina posible para mí. Pero no me arrepiento de haber soñado con ese final. Porque esos sueños me hicieron sentir útil. Me dieron forma cuando todo alrededor era incertidumbre.
+                </p>
+                <p>
+                  Y si alguna vez alguien lee esto y siente que no encaja, que no brilla, que no fue elegido… quiero que sepa que vale la pena imaginar. Aunque no se cumpla. Porque a veces, soñar es el único modo de resistir el olvido.
+                </p>
+               
+                <p>
+                  <span>
+                    “No fui mermelada. Pero me soñé siendo. Y eso, por un rato, me hizo dulce.”
+                  </span>
+                </p>`,subtitle:"A veces, imaginarse útil es lo que te mantiene entera un poco más"}];function Np(){return new Promise(Z=>{Z(Yd)})}function Fp(Z){return new Promise((ye,ue)=>{const t=Yd.find(U=>U.id===Z);t?ye(t):ue(new Error("Texto no encontrado"))})}const Up="_postCardContainer_173w9_1",Md={postCardContainer:Up},Bp=({date:Z,title:ye,img:ue,altImg:t,subtitle:U,id:T})=>St.jsxs("div",{className:Md.postCardContainer,children:[St.jsx("p",{children:Z}),St.jsx("img",{src:ue,alt:t}),St.jsx("h2",{children:ye}),St.jsx("p",{children:U}),St.jsx(Ei,{to:`/naranjafea/texto/${T}`,className:Md.navLink,children:St.jsx("button",{children:"ver mas"})})]}),Gp="_container_10gpl_1",zp={container:Gp},Hp=({posts:Z})=>St.jsx("div",{className:zp.container,children:Z.map(ye=>St.jsx(Bp,{...ye},ye.id))}),Vp=()=>{const[Z,ye]=Xe.useState([]),[ue,t]=Xe.useState(!0);return Xe.useEffect(()=>{Np().then(U=>{ye(U),t(!1),console.log("Posts obtenidos:",Z)})},[]),St.jsx("div",{className:"postCardListContainer",children:ue?St.jsx("p",{children:"Cargando..."}):St.jsxs("div",{children:[St.jsx("h2",{className:"dm-serif-text-regular",children:"MIS TEXTOS"}),St.jsx(Hp,{posts:Z})]})})},Wp="_container_782ap_1",qp="_imgPostDetail_782ap_19",lu={container:Wp,imgPostDetail:qp},Xp=({title:Z,subtitle:ye,date:ue,img:t,atlImg:U,content:T})=>St.jsxs("div",{className:lu.container,children:[St.jsx("h1",{children:Z}),St.jsx("p",{children:ue}),St.jsx("img",{src:t,alt:t,className:lu.imgPostDetail}),St.jsx("h2",{children:ye}),St.jsx("div",{dangerouslySetInnerHTML:{__html:T},className:lu.container})]}),Yp=()=>{const[Z,ye]=Xe.useState(null),{idtexto:ue}=Gh();return Xe.useEffect(()=>{Fp(ue).then(t=>{ye(t)})},[ue]),St.jsx("div",{children:St.jsx(Xp,{...Z})})},Qp={Date:!0,RegExp:!0,String:!0,Number:!0};function Qd(Z,ye,ue={cyclesFix:!0},t=[]){var U,T;let y=[];const v=Array.isArray(Z);for(const f in Z){const b=Z[f],m=v?+f:f;if(!(f in ye)){y.push({type:"REMOVE",path:[m],oldValue:Z[f]});continue}const o=ye[f],i=typeof b=="object"&&typeof o=="object"&&Array.isArray(b)===Array.isArray(o);if(b&&o&&i&&!Qp[(T=(U=Object.getPrototypeOf(b))==null?void 0:U.constructor)==null?void 0:T.name]&&(!ue.cyclesFix||!t.includes(b))){const a=Qd(b,o,ue,ue.cyclesFix?t.concat([b]):[]);y.push.apply(y,a.map(l=>(l.path.unshift(m),l)))}else b!==o&&!(Number.isNaN(b)&&Number.isNaN(o))&&!(i&&(isNaN(b)?b+""==o+"":+b==+o))&&y.push({path:[m],type:"CHANGE",value:o,oldValue:b})}const u=Array.isArray(ye);for(const f in ye)f in Z||y.push({type:"CREATE",path:[u?+f:f],value:ye[f]});return y}function $p(Z,ye){return Qd(Z,ye).length===0}var bi=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};function Jp(Z){return Z&&Z.__esModule&&Object.prototype.hasOwnProperty.call(Z,"default")?Z.default:Z}var $d={exports:{}},ua={};/**
  * @license React
  * react-jsx-runtime.production.min.js
  *
